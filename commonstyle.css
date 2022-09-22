@@ -1,0 +1,399 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+    
+}
+
+
+.navbar{
+    /* background-color: #FF0063; */
+    width: 1300px;
+    margin: auto;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)); */
+    color: white;
+    /* height: 80px; */
+}
+.nav-c{
+    color: white;
+}
+.container-fluid .navbar-brand{
+    font-size: 35px;
+}
+.navbar a{
+    color: black;
+}
+.navbar a:hover{
+    color: #F65A83;
+}
+.navbar li a{
+    font-size: 20px;
+}
+.navbar li a i{
+    padding-right: 10px;
+}
+.navbar-nav{
+    margin-left: 50%;
+}
+.navbar-nav li{
+    padding-left: 20px;
+}
+
+.sub-navbar{
+    background-color: #eff0f2;
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    /* justify-content: space-around; */
+    color:#F65A83;
+    overflow-x: auto;
+
+    
+}
+.sub-navbar a{
+    /* background-color: white; */
+    border: 1px solid black;
+    list-style: none;
+    margin-left: 10px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    /* overflow-x: auto; */
+}
+
+.sub-navbar a.active{
+    background-color:#F65A83;
+    color: white;
+
+}
+
+
+.sub-navbar a:hover{
+    color: white;
+    background-color: #F65A83;
+    transition: 0.5s;
+}
+
+
+
+
+/* the above code is common for all pages */ 
+
+section{
+    background-color: red;
+    width: 1300px;
+    margin: auto;
+
+}
+
+
+.package{
+    border: 1px solid black;
+    background-color: white;
+    display: inline-block;
+    width: 23%;
+    font: 13px/22px Aileron Regular;
+    font-size: 20px;
+    margin-left: 17px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    height: auto;
+    border-radius: 8px;
+}
+.package h4{
+    text-align: center;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.package h6{
+    font-weight: 350;
+    
+}
+
+.package:hover {
+    transform: scale(1.05);
+
+    transition: .5s;
+}
+
+.time-money {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.time-money .add {
+    border: 3px solid #F65A83;
+    padding: 15px 20px;
+    /* margin-bottom: 5px; */
+    border-radius: 40px;
+}
+.time-money .add:hover{
+    background-color: #F65A83;
+    color: #111;
+    cursor: pointer;
+
+    transition: .6s;
+}
+
+.package p {
+    color: black;
+    text-align: start;
+    margin-left: 10px;
+    font: 13px/22px Aileron Regular;
+    font-size: 15px;
+}
+
+.package img {
+    margin-top: 20px;
+    width: 70%;
+margin-left: 45px;
+    
+
+}
+
+
+
+footer{
+    background-color: #111;
+    height: 50vh;
+}
+footer .footer{
+    width: 1300px;
+    padding-top: 50px;
+    margin-left: 10%;
+    display: flex;
+    
+    justify-content: space-between;
+   
+}
+.f-cont{
+    line-height: 30px;
+    color: #606060;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.f-cont h3{
+    color: #ffffff;
+    cursor: default;
+}
+.f-cont i{
+    padding-top: 10px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+.f-cont i:hover{
+    color: #eff0f2;
+    font-size: 25px;
+}
+.f-cont p:hover{
+    color: #eff0f2;
+}
+
+#fbot{
+    background-color: #111;
+}
+.fbottom{
+    padding-top: 30px;
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    color: white;
+    /* background-color:#111; */
+}
+
+.fbottom h3{
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.fbottom h3 i{
+    color: #c66e8a
+}
+.fbottom span {
+    font-size: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.fbottom span:hover{
+    color: #c66e8a;
+    font-size: 28px;
+    transition: .7s;
+}
+.f-last{
+    color: white;
+    background-color: black;
+    width: 800;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.f-last span{
+    color: #c66e8a;
+}
+.f-last2{display: none;}
+.flast1{
+    display: block;
+}
+
+
+
+/* this section is for media query */
+
+@media screen and (max-width: 480px){
+
+    .navbar{
+        width: 100%;
+        margin: auto;
+    }
+    .navbar-nav{
+        margin-left: 0px;
+    }
+    .navbar-nav li{
+        padding-left: 0%;
+    }
+    .container-fluid .navbar-brand{
+        font-size: 25px;
+    }
+
+    .sub-navbar{
+        width: 100%;
+        margin: auto;
+        padding-top: 10px;
+        background-color: #FFC3C3;
+      
+    
+        
+    }
+    .sub-navbar a{
+        
+        margin-bottom: 10px;
+    }
+
+    
+
+.package-section {
+    width: 100%;
+    margin: auto;
+    display: inline-block;
+    padding-bottom: 50px;
+}
+.package-head{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500px;
+    border-bottom: 2px solid white;
+}
+.package {
+    border: 1px solid black;
+    background-color: white;
+    width: 45%;
+    display: inline-block;
+    margin: 0px 5px;
+    height: 40vh;
+    font-size: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.package h4{
+    font-size: 12px;
+}
+.package h5{
+    font-size: 15px;
+}
+.package h6{
+    font-size: 15px;
+}
+.time-money .add {
+    padding: 12px 20px 5px 20px;
+    font-size: 12px;
+}
+
+.package p{
+    font-size: 10px;
+    line-height: 10px;
+}
+.package img {
+    margin-top: 10px;
+    width: 60%;
+margin-left: 6px;
+    
+
+}
+
+
+section {
+    background-color:#FFC3C3 ;  
+    /* background-color:#eff0f2 ;   */
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    font-size: 12px;
+    padding-top: 10px;
+    /* font-weight: bold; */
+
+
+}
+
+
+
+
+
+
+    footer{
+        height: auto;
+    }
+    footer .footer{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        background-color: #111;
+        display: inline-block;
+    
+    }
+    
+    .footer .f-cont{
+        width: 80%;
+        background-color: #111;
+        /* margin-left: 0px; */
+        display: inline-block;
+        margin: auto;
+        padding-left: 15px;
+    }
+    .fbottom{
+        width: 100%;
+        background-color: #111;
+        margin: auto;
+        padding-left: 15px;
+    
+    }
+    .fbottom h3{
+        font-size: 15px;
+        padding-top: -10px;
+    }
+    .fbottom span{
+        font-size: 20px;
+        margin-right: 5px;
+    }
+    .f-last{
+        width: 100%;
+        font-size: 15px;
+        padding-top: 10px;
+        padding-bottom: auto;
+        /* margin-bottom: 10px; */
+    
+    }
+    .f-last2{
+        display: block;
+        /* margin-top: -10px; */
+    }
+    .flast1{
+        display: none;
+    }
+}
